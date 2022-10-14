@@ -1,3 +1,24 @@
 .one {
     border: solid black;
+    color: rgb(217, 180, 112);
+    background-color: black;
+    margin-bottom: 0;
+
+}
+
+.navbar{
+    background-color: orange;
+    height: 50px;
+    margin: 0;
+    border: solid orange;
+}
+
+il a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul{
+    text-align: center;
+    float: left;
 }
