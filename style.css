@@ -1,24 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 .one {
-    border: solid black;
-    color: rgb(217, 180, 112);
-    background-color: black;
-    margin-bottom: 0;
-
-}
-
-.navbar{
-    background-color: orange;
-    height: 50px;
-    margin: 0;
-    border: solid orange;
-}
-
-il a {
-    text-decoration: none;
-    font-size: 30px;
-}
-
-ul{
+    background-color: red;
+    border: solid red;
     text-align: center;
-    float: left;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
